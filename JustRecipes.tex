@@ -1,0 +1,112 @@
+%!TEX TS-program = xelatex                                              % 使用xelatex进行处理
+%!TEX encoding = UTF-8 Unicode                                          % 使用UTF-8, Unicode
+
+\documentclass[12pt, a4paper]{ctexart}
+
+%%%%%%%%%%%%%%%%%%% 使用包 %%%%%%%%%%%%%%%%%%%
+
+\usepackage{float}
+\usepackage{titlesec,shorttoc}
+\usepackage{indentfirst}                                                % 首行缩进
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{bm}
+\usepackage[most]{tcolorbox}
+\usepackage{fancyhdr}
+\usepackage{changepage}
+\usepackage{natbib}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+%%%%%%%%%%%%%%%%%%% 设置字体 %%%%%%%%%%%%%%%%%%%
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{STKaiti}
+\setsansfont[Scale=MatchLowercase]{Gill Sans}
+\setmonofont[Scale=MatchLowercase]{Menlo}
+\setCJKmainfont{STKaiti}
+
+%%%%%%%%%%%%%%%%%%% 样式设置 %%%%%%%%%%%%%%%%%%%
+
+\hypersetup{urlcolor=Gray, citecolor=Gray}                              % 设置超链接和引用的颜色
+
+\setlength{\parindent}{2em}                                             % 首行空两字
+\addtolength{\parskip}{.4em}
+
+%%%%%%%%%%%%%%%%%%% 开始文档 %%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\title{JustRecipes}
+\author{\bfseries 笈川伊織\footnote{https://github.com/IoriOikawa/JustRecipes}}
+\date{}
+
+\maketitle
+\setcounter{secnumdepth}{2}
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%% Beverage %%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Beverage}
+
+%%%%%%%%%%%%%%%%%%% Beverage - 懒人冷萃咖啡 %%%%%%%%%%%%%%%%%%%
+\subsection{懒人冷萃咖啡}
+\subsubsection{准备}
+\begin{enumerate}
+    \item{一个干净的容器w}
+    \item{冰箱w}
+    \item{咖啡粉w}
+    \item{法压壶w}
+\end{enumerate}
+
+\subsubsection{步骤}
+\begin{enumerate}
+    \item{将3份咖啡粉倒入容器}
+    \item{向容器中加7份水}
+    \item{再在容器中加3份咖啡}
+    \item{不许摇晃容器，放入冰箱，温度调至0～4度}
+    \item{24～48小时后拿出容器，过法压壶}
+    \item{0～4度且未加糖时，容器可以保存两星期}
+\end{enumerate}
+
+\subsubsection{PS}
+推荐配糖浆及冰块饮用 不喜欢咖啡的酸味的话超级推荐
+
+\subsubsection{PPS}
+注意饮用量，当心手抖w
+
+%%%%%%%%%%%%%%%%%%% Domintory Recipes %%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Domintory Recipes}
+
+%%%%%%%%%%%%%%%%%%% Domintory Recipes - 宿舍用火锅 %%%%%%%%%%%%%%%%%%%
+\subsection{宿舍用火锅}
+\subsubsection{准备}
+\begin{enumerate}
+    \item{一个保温杯w}
+    \item{一个水壶w}
+\end{enumerate}
+
+\subsubsection{步骤}
+\begin{enumerate}
+    \item{底料放水壶里热一下拿出来，算是第一锅}
+    \item{蓝后第二锅用水壶}
+    \item{加水放次的}
+    \item{涮之}
+    \item{涮好的放保温杯蘸底料}
+\end{enumerate}
+
+\subsubsection{PS}
+害怕辣或者想蘸底料就单独拿一个一次性杯子或者碗放底料就好
+
+\subsubsection{PPS}
+虽然大块的东西像是脑花不一定能入味儿倒是
+
+\end{document}

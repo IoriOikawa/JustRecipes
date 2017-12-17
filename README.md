@@ -1,6 +1,8 @@
 # JustRecipes
 真心的。。。这个真是菜谱集合w
 
+[Download PDF](raw/master/JustRecipes.pdf)
+
 ### Beverage
 [懒人冷萃咖啡](Beverage/懒人冷萃咖啡.md)
 
