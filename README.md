@@ -13,6 +13,8 @@
 ### Domintory Recipes
 [宿舍用火锅](Domintory%20Recipes/宿舍用火锅.md)
 
+[最完美的溏心蛋](Domintory%20Recipes/最完美的溏心蛋.md)
+
 ### 毒品改造计划
 [戴白花的血腥玛丽](毒品改造计划/戴白花的血腥玛丽.md)
 
