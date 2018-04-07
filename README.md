@@ -1,4 +1,6 @@
 # JustRecipes
+![badge](JustRecipes.svg)
+
 真心的。。。这个真是菜谱集合w
 
 [Download PDF](../../raw/master/JustRecipes.pdf)
